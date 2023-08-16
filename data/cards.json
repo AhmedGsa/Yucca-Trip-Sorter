@@ -3,7 +3,7 @@
         "id": 1,
         "from": "Gerona Airport",
         "to": "Stockholm",
-        "tranportationType": "Plane",
+        "transportationType": "Plane",
         "details": {
             "tripNumber": "SK455",
             "gate": "45B",
@@ -15,7 +15,7 @@
         "id": 2,
         "from": "Madrid",
         "to": "Barcelona",
-        "tranportationType": "Train",
+        "transportationType": "Train",
         "details": {
             "tripNumber": "78A",
             "seat": "45B"
@@ -25,7 +25,7 @@
         "id": 3,
         "from": "Stockholm",
         "to": "New York",
-        "tranportationType": "Plane",
+        "transportationType": "Plane",
         "details": {
             "tripNumber": "SK22",
             "gate": "22",
@@ -37,9 +37,7 @@
         "id": 4,
         "from": "Barcelona",
         "to": "Gerona Airport",
-        "tranportationType": "Bus",
-        "details": {
-            "seat": "No seat assignment"
-        }
+        "transportationType": "Bus",
+        "details": {}
     }
 ]

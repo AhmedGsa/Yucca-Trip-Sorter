@@ -1,7 +1,7 @@
 const express = require('express');
+const { addCard } = require('../controllers/cards');
 const router = express.Router();
-const {displayTrip} = require('../controllers/trip');
 
-router.post('/sort', displayTrip);
+router.post("/", addCard);
 
 module.exports = router;
